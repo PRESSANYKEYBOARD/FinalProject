@@ -5,4 +5,5 @@
 2nd BackUp: 주석 보완<br>
 3rd BackUp: 프로필 관련 페이지 수정 진행 중<br>
 4th BackUp: 폰트 오류 수정 + 프로필 관련 페이지 수정 진행 중<br>
-5th BackUp: 날짜 함수 추가 + 프로필 관련 페이지 수정 진행 중
+5th BackUp: 날짜 함수 추가 + 프로필 관련 페이지 수정 진행 중<br>
+6th BackUp: 게시글 수정·삭제 버튼 추가 및 기타 수정 진행 중<br>
