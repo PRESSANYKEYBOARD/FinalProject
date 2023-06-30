@@ -10,3 +10,5 @@
 7th BackUp: 본격적인 병합 진행... 게시글 삭제 해결 중...<br>
 8th BackUp: 병합 후 로그인 이슈 해결... 게시글 삭제 개발 및 수정 중...<br>
 9th BackUp: 수술 이전 최종 백업...<br>
+10th BackUp: 마무리 작업 1<br>
+11th BackUp: 마무리 작업 2<br>
