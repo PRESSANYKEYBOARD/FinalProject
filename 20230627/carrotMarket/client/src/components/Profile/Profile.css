@@ -1,0 +1,183 @@
+#profile-head {
+  background-color: #f8f9fa;
+  padding: 20px 0 30px 0;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-row {
+  align-items: center;
+}
+
+/* 이미지 프로필 */
+#avatar {
+  width: 75%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #FF7E36;
+}
+
+/* 전체 div */
+#profile-head {
+  display: flex;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow for a bit of depth */
+}
+
+#profile_information2 {
+  margin-top: 25px;
+  float: left;
+}
+
+.profile-edit-button,
+.profile-delete-button,
+.manner-button {
+  font-size: 13px;
+  width: 120px; /* Increase button width to 120px */
+  height: 40px; /* Set button height to 40px */
+  background-color: white;
+  border: 2px solid #FF7E36;
+  padding: 2px 4px;
+  margin-right: 3px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #FF7E36;
+}
+
+.profile-delete-button {
+  border-color: #FF4B4B; /* Change border-color of sell_delete to red */
+  color: #FF4B4B; /* Change text color of sell_delete to red */
+}
+
+.profile-edit-button:hover,
+.profile-delete-button:hover,
+.manner-button:hover {
+  background-color: #FF7E36;
+  color: white;
+  border-color: #FF7E36;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-delete-button:hover {
+  background-color: #FF4B4B; /* Change background-color of sell_delete hover to red */
+  border-color: #FF4B4B; /* Change border-color of sell_delete hover to red */
+}
+
+.profile-edit-button:focus,
+.profile-delete-button:focus,
+.manner-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #FF9A52;
+}
+
+/* 프로필 이름 */
+#profile_name {
+  display: flex;
+}
+
+#profile_name button {
+  margin-left: 20px;
+}
+
+/* #profile_infobtn {
+  margin-top: 20px;
+} */
+
+.sellcount {
+  margin-left: 100px;
+  padding-bottom: 10px;
+  display: inline-block;
+  align-items: center;
+}
+
+.section-icon {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.section-title {
+  display: inline;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.item-count {
+  font-weight: bold;
+  color: #555;
+}
+
+#edit-profile-icons {
+  text-align: center;
+  font-size: 30pt;
+  margin-top: -14px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar-button {
+  flex-grow: 1;
+  height: 50px;
+  margin-right: 5px;
+  border: none;
+  background-color: white;
+  color: #333333;
+  border-bottom: 2px solid transparent;
+  font-weight: bold;
+}
+
+.sidebar-button.active {
+  border-bottom: 4px solid #FF7E36;
+  color: #FF7E36;
+}
+
+.profile-main-contents {
+  background-color: white;
+  padding: 20px;
+}
+
+.heading {
+  display: none;
+}
+
+#tem_total {
+  width: 250px;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.manner-thermometer {
+  margin-top: -5px;
+  width: 240px;
+  height: 10px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.manner-thermometer-fill {
+  height: 100%;
+  border-radius: 10px;
+  background-color: #FF7E36; /* Set thermometer color to #FF7E36 */
+  transition: width 0.3s ease-in-out;
+}
+
+.manner-thermometer-label {
+  font-size: 12px;
+  text-align: right;
+  padding-right: 5px;
+}

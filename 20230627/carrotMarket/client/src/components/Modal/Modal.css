@@ -1,0 +1,130 @@
+.modal-bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 900;
+    background: whitesmoke;
+    opacity: 0.2;
+}
+.modal-popup {
+    width: 420px;
+    /* height: 500px; */
+    background: rgb(239, 239, 239);
+    /* border: 6px solid orange; */
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 50px 0px;
+    position: absolute;
+    z-index: 1000;
+    left: 50%;
+    top: 50%; 
+    padding: 30px;
+    box-sizing: border-box;
+    transform: translate(-50%, 20%); 
+}
+.modal-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+}
+.carrot-logo {
+    display: block;
+    margin: auto auto 20px;
+}
+.modal-title {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.modal-subtitle {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.modal-paths {
+    padding: 0px 70px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.emailForm, .nameForm, .pwdForm {
+    margin-bottom: 12px;
+    padding-top: 5px;
+    font-family: "Google Sans",arial,sans-serif;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0.25px;
+    background: rgb(239, 239, 239);
+    border: white;
+}
+.loginBtn {
+    width: 208px; 
+    height: 40px;
+    border: 1px solid #dadce0;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 7px 0px; */
+    background: rgb(255, 255, 255);
+    font-family: "Google Sans",arial,sans-serif;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    padding-top: 5px;
+    position: relative;
+}
+.loginBtn:hover {
+    background: #FF8A3D;
+    border: 1px solid #dadce0;
+
+}
+
+.modal-path {
+    width: 208px;
+    height: 40px;
+    border: 1px solid #dadce0;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 7px 0px; */
+    background: rgb(255, 255, 255);
+    font-family: "Google Sans",arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    padding-top: 5px;
+    position: relative;
+}
+.modal-path:hover {
+    background: #F8FAFF;
+    border: 1px solid lightblue;
+}
+
+.toLogin {
+    font-family: "Google Sans",arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.25px;
+    text-align: center;
+}
+
+/* .col-lg-6 authAlert {
+    text-align: center;
+
+} */
+
+.authAlert {
+    color: #FF8A3D;
+    font-family: "Google Sans",arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    border: 1px solid rgb(239, 239, 239);
+    background: rgb(239, 239, 239);
+    width: auto;
+    height: 40px;
+    /* margin-left: 5px; */
+}
